@@ -58,13 +58,37 @@
 			children = (
 				D1ECBE0C28C640090007BE95 /* AppDelegate.swift */,
 				D1ECBE0E28C640090007BE95 /* SceneDelegate.swift */,
-				D1ECBE1028C640090007BE95 /* ViewController.swift */,
-				D1ECBE1228C640090007BE95 /* Main.storyboard */,
+				D1ECBE2328C641740007BE95 /* Model */,
+				D1ECBE2028C641230007BE95 /* Views */,
+				D1ECBE2128C641320007BE95 /* Controllers */,
 				D1ECBE1528C640290007BE95 /* Assets.xcassets */,
 				D1ECBE1728C6402A0007BE95 /* LaunchScreen.storyboard */,
 				D1ECBE1A28C6402A0007BE95 /* Info.plist */,
 			);
 			path = App10;
+			sourceTree = "<group>";
+		};
+		D1ECBE2028C641230007BE95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1ECBE1228C640090007BE95 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1ECBE2128C641320007BE95 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1ECBE1028C640090007BE95 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D1ECBE2328C641740007BE95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vasilromeo.App10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasilromeo.App10hbjb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vasilromeo.App10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasilromeo.App10hbjb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
